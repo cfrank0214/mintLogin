@@ -29,89 +29,24 @@ footer {
     margin-right: auto;
     width: 25%;
 }
-.main-box {
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color:  rgb(253, 254, 255); 
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-    height: 500px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(204, 205, 206)
 }
-.main-box-title-text {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20pt;
-    color: rgb(38, 40, 41);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.signIn {
-    background-color:  rgb(10, 122, 235); 
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 40px;
-    font-size: 18pt;
-    font-family: "AvenirNext","Avenir","Helvetica Neue","Helvetica","Arial","sans-serif";
-    color: rgb(234, 236, 238);
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(204, 205, 206)
-}
-.uId-input {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14pt;
-    width: 90%;
-    color: rgb(38, 40, 41);
-    text-align: left;
-}
-.password-input {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14pt;
-    color: rgb(38, 40, 41);
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.checkbox {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14pt;
-    width: 90%;
-    color: rgb(38, 40, 41);
-    text-align: left;
-}
-.main-box-footer-text{
-    margin-left: auto;
-    margin-right: auto;
+#main-box-CAPTCHA-text {
     font-size: 10pt;
-    color: rgb(127, 131, 133);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    background-color: lightgray
 }
-.main-box-CAPTCHA-text {
-    margin-left: auto;
-    margin-right: auto;
-    background-color:  rgba(195, 198, 201, 0.699); 
-    font-size: 8pt;
-    color: rgb(127, 131, 133);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+
+
 img {
     max-width: 100%;
     max-height: 100%;
